@@ -4,7 +4,7 @@
 * 其中，CallByValueTest() 函式負責呼叫 CallByValue() 函式 100 次，並透過 Call by Value 的方式傳遞大資料作為參數
 * 而 CallByReferenceTest() 函式負責呼叫 CallByReference() 函式 100 次，並透過 Call by Reference 的方式傳遞大資料作為參數
 * 在這個過程中，紀錄執行時的 CPU/memory 使用情形
-* 本實驗預測試的語言為 Golang 以及 Rust
+* 本實驗欲測試的語言為 Golang 以及 Rust
 
 ## Golang
 * 於本專案的 Golang 資料夾下執行以下指令即可觀察實驗結果 (最好先清除上一次實驗產生的結果)
