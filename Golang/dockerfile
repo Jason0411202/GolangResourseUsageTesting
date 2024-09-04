@@ -1,0 +1,9 @@
+# using go 1.21 version
+FROM golang:1.21
+
+WORKDIR /app
+
+COPY . .
+
+# run commend and use go pprof to get the cpu and memory profile
+CMD ["sh", "-c", "go test -benchmem -bench . -memprofile=memout -cpuprofile=cpuout -gcflags=\"-N -l\" && printf 'list AllTest\\n' | go tool pprof cpuout && printf 'list AllTest\\n' | go tool pprof memout"]
