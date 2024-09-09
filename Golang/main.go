@@ -36,9 +36,9 @@ func AllTest() {
 		CallByReference(&data)
 	}
 
-	for i := 0; i < 100; i++ {
-		CallByValue_Escape(data)
-	}
+	// for i := 0; i < 100; i++ {
+	// 	CallByValue_Escape(data)
+	// }
 	for i := 0; i < 100; i++ {
 		CallByReference_Escape(&data)
 	}

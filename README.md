@@ -6,3 +6,4 @@
 
 ## 實驗
 - [In-depth Exploration of Call by Value/Reference Performance in Different Languages](docs/Exp1_English.md)
+- [Exploring the Performance of Golang's Call by Value/Reference under Memory Limitations Based on Experiment 1](docs/Exp2_English.md)
